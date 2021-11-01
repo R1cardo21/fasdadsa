@@ -18,10 +18,11 @@ body {
 }
 
 main {
-  background: url(imagens/background.svg) no-repeat center/cover;
+  /*background: url(imagens/background.svg) no-repeat center/cover; /*/
   width: 100vw;
   min-height: 55.625rem;
   height: 100vh;
+  background-color: aqua;
 }
 .container {
   max-width: 250px;
