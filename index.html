@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+  <head lang="pt_BR">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Silva - DoWhile 2021</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+
+    <link 
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" 
+          rel="stylesheet"> 
+          
+  </head>
+  <body>
+    <main>
+      <div class="container">
+         <div class="avatar">
+          <span>
+            <img src="imagens/build.svg" alt="Selo rocketseat" />
+          </span>
+          <img src= https://avatars.githubusercontent.com/u/92741074?s=400&u=20215e59a1966d62b104d7322ee3ba0cb7fa9755&v=4
+          alt="foto pessoal"
+          id="userImage" 
+          />
+           </div>
+
+        <h1 id="userName">Ricardo Silva</h1>
+        <a id ="userLink" href="https://github.com/r1cardo21"
+         target="_blank">
+        <img src="imagens/github 2.svg" alt="ícone github" />
+        <span id= "userLogin" >ricardo</span></a
+        >
+
+        <p id="userBio">
+          Futuro estudante de programação. Ciclista nos horários vagos e paixão por sorvete.
+
+        <ul>
+          <li class="youtube">
+             <a href="https://youtube.com/" 
+             target="_blank "
+             >
+               <img
+                 src="imagens/youtube.svg"
+                 alt="ícone youtube"
+              />
+              </a>  
+        </li>
+        <li class="facebook">
+            <a href="https://facebook.com/R1cardoSilva2022 "
+            target="_blank" 
+            >
+                <img
+                src="imagens/facebook.svg"
+                alt="ícone facebook"
+                />
+                </a>
+            <li class="instragram">
+                <a href="https://instagram.com/r1cardo15"
+                target="_blank"
+                >
+                    <img src="imagens/instragram.svg" alt="
+                    ícone instragram"
+                     />
+                </a>
+            </li>
+                    <li class="twitter">
+                     <a href="https://twitter.com/@R1cardo2022 " 
+                     target="_blank"
+                     >
+                     <img
+                     src="imagens/twitter.svg"
+                     alt="ícone twitter"
+                     />
+                     </a>
+                    </li>
+        <ul>
+      </div>
+    </main>
+    <script >const LinksSocialMedia = {
+      github: 'R1cardo21',
+    
+      facebook: 'R1cardosilva2022',
+      instragram: 'r1cardo15',
+      twitter: '@R1cardo2022'
+    }
+    function changeSocialMediaLinks() {
+      for (let li of socialLinks.children) {
+        const social = li.getAttribute('class')
+    
+        li.children[0].href = `https://${social}.com/${LinksSocialMedia[github]}`
+        alert(li.children[0].href)
+      }
+
+      }
+    
+    </script>
+  </body>
+</html>
